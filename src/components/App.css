@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+.app__nav{
+    background-color: #ff800f;
+    width: 100%;
+    /* height: 9%; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Philosopher', sans-serif;
+    padding-right: 1rem!important;
+   
+    /* margin-left: 17rem; */
+}
+#grad {
+    background-image: linear-gradient(to right, rgba(195, 180, 180, 0), rgb(255, 132, 0));
+  }
+
+.fixed-top {
+    position: fixed;
+   
+}
+.app__top {
+  
+    font-family: 'Dekko', cursive;
+    color: #f1f1f1;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.app__logo {
+    height: 50vh;
+}
+
+.sidenav{
+  
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow: scroll;
+    padding-top: 20px;
+}
+
+.sidenav a {
+ 
+    padding: 6px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #050505;
+    display: block;
+    font-family: 'Philosopher', sans-serif;
+  }
+  
+
+  .sidenav a:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .bottomDiv{
+    position:relative;
+    bottom:150px;
+    left:150px;
+ }
+  .main {
+    background-color: #ff800f;
+    margin-top: 1cm;
+    margin-left: 7.6cm; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    position: fixed;
+    overflow: hidden;
+    /* overflow: scroll; */
+  }
+
+  .main img{
+  
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .card {
+    margin-top: 1cm;
+    height: 15%;
+    opacity: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-color: #ff800f;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.material-icons {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+
+#frontpage{
+ position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-family: 'Philosopher', sans-serif;
+}
+
+
+#social{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+  .custom-btn {
+    /* margin-left: 20rem; */
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    border-radius: 9px;
+    padding: 11px 25px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 800;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-decoration: none;
+  }
+.btn-14 {
+    background: rgb(255,151,0);
+    border: none;
+    z-index: 1;
+  }
+
+  .btn-14:after {
+    text-decoration: none;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #eaf818;
+    background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5)
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+
+  .btn-14:hover {
+    color: #000;
+  }
+  .btn-14:hover:after {
+    top: auto;
+    bottom: 0;
+    text-decoration: none;
+    height: 100%;
+  }
+  .btn-14:active {
+    top: 2px;
+    text-decoration: none;
+  }
+
+  #about-card{
+      /* background-color: #f7f1e6;
+      opacity: 0.8;
+      background-image:  radial-gradient(#f78045 0.30000000000000004px, transparent 0.30000000000000004px), radial-gradient(#f78045 0.30000000000000004px, #f7f1e6 0.30000000000000004px);
+      background-size: 12px 12px;
+      background-position: 0 0,6px 6px; */
+      background: linear-gradient(135deg, #e3904680 50%, transparent 0),linear-gradient(-135deg, #e3904680 50%, transparent 0);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1;
+      margin-left:  7.6cm;
+      margin-top : 1.6cm ;
+      /* margin-right: 6cm; */
+      width: 81.1191%;
+      height: 360% ;
+      position:absolute;
+      opacity:inherit ;
+      /* border: 1px solid ; */
+      /* border-top: ; */
+      font-size: 18px;
+      color: #050505;
+      display: block;
+      font-family: 'Philosopher', sans-serif;
+      /* scroll-margin-right:inherit; */
+  }
+ 
+  #headercard{
+    
+    background: linear-gradient(45deg,#e39046 10%, transparent 10%), linear-gradient(135deg, transparent 90%, #e39046 90%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    background-blend-mode:soft-light;
+       
+      margin-left:  7.6cm;
+      margin-top : 1.6cm ;
+      margin-right: 6cm;
+      width: 80.6191%;
+      height: 200rem ;
+      position:absolute;
+     
+      /* border: 1px solid ; */
+      font-size: 18px;
+      color: #050505;
+      display: block;
+      font-family: 'Philosopher', sans-serif;
+  }
