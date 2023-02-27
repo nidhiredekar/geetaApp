@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/geetaApp/static/css/main.429990fe.css",
+    "main.js": "/geetaApp/static/js/main.e43ba18c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/geetaApp/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bhagavadgita-5.jpg": "/geetaApp/static/media/bhagavadgita-5.7036c1d4c1ba0bffa4b6.jpg",
+    "static/media/bhagavadgita-6.jpg": "/geetaApp/static/media/bhagavadgita-6.87b1f66b399c9c4755cf.jpg",
+    "static/media/kanhadhun.mp3": "/geetaApp/static/media/kanhadhun.23e6161edc8b8262e316.mp3",
+    "static/media/sribhagavadgita.jpg": "/geetaApp/static/media/sribhagavadgita.fb9f0ce484c8f697059e.jpg",
+    "static/media/shriradhakrishna.jpg": "/geetaApp/static/media/shriradhakrishna.caf9d547cf3a51b1fddd.jpg",
+    "index.html": "/geetaApp/index.html",
+    "main.429990fe.css.map": "/geetaApp/static/css/main.429990fe.css.map",
+    "main.e43ba18c.js.map": "/geetaApp/static/js/main.e43ba18c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/geetaApp/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.429990fe.css",
+    "static/js/main.e43ba18c.js"
+  ]
+}
